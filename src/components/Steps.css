@@ -1,0 +1,65 @@
+DIV.inputs {
+    display: table;
+    width: 550px;
+  }
+  
+  FORM.tr {
+    display: table-row;
+  }
+  
+  INPUT.td,
+  BUTTON.td {
+    display: table-cell;
+  }
+  
+  .inputs-headers {
+    display: flex;
+    padding-left: 40px;
+  }
+
+  .table-headers {
+    display: flex;
+    padding-left: 30px;
+  }
+  
+  h4 {
+    margin-inline-end: 5.5em;
+    margin-block-start: 1em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 4em;
+    font-weight: 600;
+  }
+  
+  input {
+    border: 1px solid #171717;
+    border-radius: 5px;
+    font-size: 13px;
+    height: 14px;
+    margin-right: 20px;
+  }
+
+  button {
+    border-radius: 5px;
+  }
+  
+  .date-input {
+    padding: 11px 10px 9.9px 10px;
+  }
+  
+  .km-input {
+    padding: 11.5px 10px 9px 15px;
+  }
+  
+  button {
+    background-color: #fff;
+    border: 1px solid #171717;
+    padding: 10px 25px;
+    text-align: center;
+    font-size: 13px;
+    cursor: pointer;
+    align-self: flex-end;
+  }
+  
+  td {
+    padding: 8px 0px;
+  }
